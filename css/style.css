@@ -1,4 +1,10 @@
 @charset "utf-8";
+
+/**
+* IMPORT WEBFONTS
+*/
+@import url(https://fonts.googleapis.com/css?family=Neuton&text=Nikhil%20Mohan|Josefin+Slab);
+
 /*------------------------------------*\
     $RESET
 \*------------------------------------*/
@@ -76,7 +82,7 @@ textarea {
 html {
     background-color: #f6f9f9;
     color: #95a4a9;
-    font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 16px/1.7 'Josefin Slab', serif;
 }
 body {
     margin: 10%;
@@ -94,7 +100,7 @@ body {
 
 .content {
     float: left;
-    width: 300px;
+    width: 450px;
 }
     .title {
         font-size: 48px;
@@ -123,9 +129,6 @@ ul, ol, dl,
 .title {
     margin-bottom: 20px;
 }
-p {
-    font-weight: bold;
-}
 ul, ol, dl {
     list-style-type: none;
 }
@@ -135,31 +138,18 @@ a {
 }
 a:hover, a:focus {
     color: #95a4a9;
-    -webkit-transition: color 0.2s ease;
-    -moz-transition: color 0.2s ease;
-    -o-transition: color 0.2s ease;
-    -ms-transition: color 0.2s ease;
-    transition: color 0.2s ease;
 }
 
 
-
+h1, h2 {
+  font: 5em 'Neuton', Georgia, serif;
+}
 
 
 /*------------------------------------*\
     $MISC
 \*------------------------------------*/
-a img:hover,
-.social-icons a:hover {
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-    filter: alpha(opacity=85);
-    opacity: 0.85;
-    -webkit-transition: opacity 0.2s ease;
-    -moz-transition: opacity 0.2s ease;
-    -o-transition: opacity 0.2s ease;
-    -ms-transition: opacity 0.2s ease;
-    transition: opacity 0.2s ease;
-}
+
 
 /*
 Animate.css - http://daneden.me/animate
