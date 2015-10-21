@@ -1,2 +1,5 @@
 # niksmac.github.io
-My Personal Website...
+
+Blog url: [niksmac][blog]
+
+[blog]: http://niksmac.github.io
